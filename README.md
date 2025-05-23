@@ -85,4 +85,4 @@ The contract is deployed at: `0x4563ff769a3c1718ab3b96ae2f887b077febe690`
 
 ## Summary
 
-Unlike the standard EVM's theoretical limit of ~1024 call stack frames, **Westend Hub enforces a much stricter limit of only 5 recursive calls**. This demonstrates the importance of testing call stack depth limits on specific blockchain networks, as they may implement their own restrictions beyond the standard EVM specifications.
+Unlike the standard EVM's theoretical limit of ~1024 call stack frames, the tests for the Hub show a much stricter limit of only 5 recursive calls.
