@@ -47,6 +47,9 @@ Trying depth: 5
 Caught error at depth: 6
 Error message: execution reverted: Max call depth before failure: 5
 ```
+## Contract Deployment
+
+The contract is deployed at: `0x4563ff769a3c1718ab3b96ae2f887b077febe690`
 
 ## Logs from Westend Hub (Using cast CLI)
 
@@ -78,10 +81,6 @@ Error: server returned an error response: error code 3: execution reverted: , da
 ```
 
 **Highlight:** Depth 6 calls revert, indicating the call stack limit has been reached.
-
-## Contract Deployment
-
-The contract is deployed at: `0x4563ff769a3c1718ab3b96ae2f887b077febe690`
 
 ## Summary
 
